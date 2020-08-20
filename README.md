@@ -7,7 +7,7 @@ In this project I wrote code to solve a hexadoku puzzle, which is essentially 16
 In the project's directory, run these two commands in order:
 
 >make<br>
-./hex <hexadoku board filename>.txt
+./hex \<hexadoku board filename\>.txt
 
 An example of a hexadoku board can be seen below, where -'s represent empty spaces in the board.
 
