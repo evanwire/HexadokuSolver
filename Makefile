@@ -1,7 +1,7 @@
-all: first
+all: hex
 
-first:
-	gcc -g -Wall -Werror -fsanitize=address -std=c11 first.c -o first
+hex:
+	gcc -g -Wall -Werror -fsanitize=address -std=c11 hex.c -o hex
 
 clean:
-	rm -rf first
+	rm -rf hex
